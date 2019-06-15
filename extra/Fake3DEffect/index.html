@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Fake 3D Effect with WebGL Shaders | Demo 4 | Codrops</title>
+		<meta name="description" content="Demo of the tutorial on how to create a fake 3D image effect with WebGL shaders." />
+		<meta name="keywords" content="webgl, 3d, image, shader, javascript, tutorial, demo, web development, effect" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+	</head>
+	<body class="demo-4">
+		<main>
+			<div class="frame">
+				<div 
+					id="gl" 
+					data-imageOriginal="ImageL2.png" 
+
+					data-imageOther="ImageR2.png" 
+
+					data-imageDepth="filteredImg.png" 
+					data-horizontalThreshold="15" 
+					data-verticalThreshold="15">
+				</div>
+			</div>
+		</main>
+		<script src="js/app2.js"></script>
+	</body>
+</html>
